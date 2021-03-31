@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class MainController {
 
-    @GetMapping("/mainPage")
-    public String mainPage() {
-        return "mainPage";
-    }
+    //@GetMapping("/")
+    //public String mainPage() {
+    //    return "mainPage";
+    //}
 
 }
